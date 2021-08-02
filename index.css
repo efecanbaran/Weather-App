@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background-color: rgb(178, 226, 222);
+  max-width: 620px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  padding: 30px;
+  padding-bottom: 0;
+}
+h1{
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0;
+}
+input{
+  width: 400px;
+  padding: 5px;
+  font-size: 25px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  transition: .5s;
+}
+input:focus{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+button{
+  background-color: rgb(178, 226, 222);
+  border: none;
+  outline: none;
+  font-size: 22px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+h3{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 0;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 18px;
+}
